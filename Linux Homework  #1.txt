@@ -1,0 +1,91 @@
+   0 cd
+   1 pwd
+   2 cd/
+   3 cd /
+   4 pwd
+   5 ls
+   6 cd
+   7 cd /bin
+   8 pwd
+   9 cd
+  10 clear
+  11 ls
+  12 ls -a
+  13 ls -la
+  14 cd
+  15 cd home
+  16 cd /home
+  17 mkdir user1
+  18 ls
+  19 cd user1/
+  20 mkdir task1
+  21 cd task1/
+  22 touch file1.txt
+  23 ls
+  24 cd
+  25 cd ..
+  26 cd user1/
+  27 cd home
+  28 cd
+  29 cd /home/user1/task1/
+  30 cd user1/task1/
+  31 cd
+  32 cd /home/user1/task1/
+  33 cd /home
+  34 cd/user1/task1/
+  35 cd /home
+  36 cd user1/task1/
+  37 cd /home/
+  38 ls
+  39 tree
+  40 cd
+  41 clear
+  42 pwd
+  43 cd
+  44 cd /home
+  45 cd
+  46 cd /
+  47 history > /tmp/history.txt
+  48 export_file /tmp/history.txt
+  49 clear
+  50 cd /home
+  51 mkdir animals
+  52 ls
+  53 cd animals/
+  54 mkdir dogs
+  55 ls
+  56 mkdir cats
+  57 ls
+  58 fish
+  59 mk dir
+  60 mkdir fish
+  61 ls
+  62 cd dogs
+  63 touch pluto.txt
+  64 ls
+  65 cd ..
+  66 cd cats
+  67 touch garfield.txt
+  68 ls
+  69 cd /home
+  70 cd /tmp
+  71 touch adam.txt
+  72 ls
+  73 cd /home
+  74 mkdir humans
+  75 ls
+  76 cd /tmp
+  77 touch evA
+  78 ls
+  79 touch evA.txt
+  80 ls
+  81 cd /
+  82 ls
+  83 cp /tmp/adam.txt /home/humans.txt
+  84 ls
+  85 cd /home
+  86 ls
+  87 cd
+  88 cd /Home
+  89 cd /
+  90 history > /tmp/history.txt
