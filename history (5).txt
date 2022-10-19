@@ -1,0 +1,20 @@
+   0 touch sleeper.sh
+   1 nano sleeper.sh
+   2 ps -ef
+   3 ps -ef | wc
+   4 ps -ef | tail -32 | wc -l
+   5 nano sleeper.sh
+   6 cat /proc/cpuinfo
+   7 cat /etc/os-release
+   8 cat /etc/os-release | grep -w NAME
+   9 cat /etc/os-release | grep -w NAME >> /tmp/newfile.txt
+  10 cat /etc/os-release | grep -w NAME | awk '{print$1}'
+  11 cat /etc/os-release | grep -w NAME | awk '{print$1}' >> /tmp/newfile.txt
+  12 nano sleeper.sh
+  13 chmod 744 sleeper.sh
+  14 ./sleeper.sh
+  15 nano sleeper.sh
+  16 chmod 744 sleeper.sh
+  17 ./sleeper.sh
+  18 cat /tmp/newfile.txt
+  19 history > /tmp/history.txt
